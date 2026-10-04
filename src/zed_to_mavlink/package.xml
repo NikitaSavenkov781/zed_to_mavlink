@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>zed_to_mavlink</name>
+  <version>0.0.1</version>
+  <description>Bridge ZED PoseStamped to PX4 external vision via MAVSDK Mocap.</description>
+  <maintainer email="user@example.com">user</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+
+  <!-- Provided by system / upstream installation -->
+  <depend>mavsdk</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
